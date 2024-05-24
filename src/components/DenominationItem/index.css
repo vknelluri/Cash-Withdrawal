@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.denomination-item {
+  margin: 10px;
+}
+
+.denomination-button {
+  background-color: #7c3aed;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.denomination-button:hover {
+  background-color: #5e2cad;
+}
+
+.denomination-button:active {
+  background-color: #3e1c7d;
+}
+
+.denomination-button:focus {
+  outline: none;
+}

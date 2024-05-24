@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.cash-withdrawal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7d2fe;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.account-details {
+  background-color: #150b3e;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.account-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.account-holder-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.balance-label {
+  margin: 0;
+}
+
+.balance-amount {
+  margin: 0;
+  font-weight: bold;
+}
+
+.withdraw-section {
+  width: 100%;
+  max-width: 500px;
+}
+
+.withdraw-label {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.withdraw-description {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.denominations-list {
+  list-style-type: none;
+  padding: 0;
+  display: ;
+}
